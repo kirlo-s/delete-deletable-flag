@@ -1,7 +1,7 @@
 {
-    "id": "deletable-flag",
+    "id": "portal-editable",
     "name": "portal-deletable-flag",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "delete deletable attribute",
     "author": "Kirlo_s",
     "main": "main.js"
