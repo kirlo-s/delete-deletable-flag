@@ -1,6 +1,6 @@
 const deletable = (function () {
 
-    const pluginName = "portal-deletable";
+    const pluginName = "portal-editable";
 
     const deletableRegister = (function (){
         function precondition() {
