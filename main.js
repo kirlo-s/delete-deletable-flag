@@ -32,7 +32,9 @@ const deletable = (function () {
     function init() {
         plugin = BF2042Portal.Plugins.getPlugin(pluginName);
 
-        plugin.initializeWorkspace = deleteAttributes();
+        plugin.initializeWorkspace = function(){
+            deleteAttributes();
+        };
     }
 
     init();
